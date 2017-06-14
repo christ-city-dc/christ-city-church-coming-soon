@@ -99,7 +99,8 @@ html, body {
     background-color: #770024;
 }
 
-.hero__link:visited:before {
+.hero__link:visited:before,
+.hero__link:active:before {
     visibility: hidden;
 }
 
