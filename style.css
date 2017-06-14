@@ -99,6 +99,10 @@ html, body {
     background-color: #770024;
 }
 
+.hero__link:active {
+    visibility: hidden;
+}
+
 @media only screen and (min-width : 400px) {
     .hero__title {
         font-size: 36px;
