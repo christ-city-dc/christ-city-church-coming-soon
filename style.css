@@ -5,27 +5,17 @@ html, body {
     background-color: #F3F6F4;
     color: #251F23;
     font-family: 'Open Sans', sans-serif;
-    height: 100%;
+    -webkit-font-smoothing: antialiased;
     position: relative
 }
 
 .hero {
     overflow: hidden;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 80%;
-    transform: translateY(-50%) translateX(-50%);
-    margin: 0 auto;
+    position: relative;
+    margin: 100px 10% 0;
     text-align: center;
     vertical-align: middle;
     animation: fadein 5s;
-}
-
-.child {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
 }
 
 @keyframes fadein {
@@ -51,6 +41,7 @@ html, body {
 
 .hero__message {
     font-size: 16px;
+    font-style: italic;
     line-height: 1.25;
     margin: 16px 0;
     color: #251F23;
@@ -68,7 +59,7 @@ html, body {
     border-right: 2px solid #251F23;
     overflow: hidden;
     position: relative;
-    padding: 5px 10px;
+    padding: 3px 5px;
 }
 
 .hero__link-wrapper:last-child {
@@ -79,10 +70,11 @@ html, body {
     display: inline;
     padding: 0 5px;
     margin: 0;
-    font-size: 24px;
+    font-size: 14px;
     line-height: 1.25;
     color: #770024;
     text-decoration: none;
+    text-transform: uppercase;
     position: relative;
     overflow: hidden;
 
@@ -92,25 +84,22 @@ html, body {
     content: "";
     position: absolute;
     width: 100%;
-    margin: 0 auto;
     height: 2px;
     bottom: 0;
     left: 0;
     background-color: #770024;
     visibility: hidden;
-    -webkit-transform: scaleX(0);
     transform: scaleX(0);
-    -webkit-transition: all 0.3s ease-in-out 0s;
-    transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out;
 }
 
 .hero__link:hover:before {
     visibility: visible;
-    -webkit-transform: scaleX(1);
     transform: scaleX(1);
+    background-color: #770024;
 }
 
-@media only screen and (min-device-width : 400px) {
+@media only screen and (min-width : 400px) {
     .hero__title {
         font-size: 36px;
     }
@@ -124,11 +113,15 @@ html, body {
     }
 
     .hero__link {
-        font-size: 28px;
+        font-size: 18px;
     }
 }
 
-@media only screen and (min-device-width : 600px) {
+@media only screen and (min-width : 700px) {
+    .hero {
+        margin: 150px 10% 0;
+    }
+
     .hero__title {
         font-size: 40px;
     }
@@ -142,11 +135,15 @@ html, body {
     }
 
     .hero__link {
-        font-size: 32px;
+        font-size: 22px;
     }
 }
 
-@media only screen and (min-device-width : 800px) {
+@media only screen and (min-width : 800px) {
+    .hero {
+        margin: 200px 10% 0;
+    }
+
     .hero__title {
         font-size: 44px;
     }
@@ -160,11 +157,15 @@ html, body {
     }
 
     .hero__link {
-        font-size: 36px;
+        font-size: 26px;
     }
 }
 
-@media only screen and (min-device-width : 1200px) {
+@media only screen and (min-width : 1200px) {
+    .hero {
+        margin: 250px 10% 0;
+    }
+
     .hero__title {
         font-size: 52px;
     }
@@ -178,6 +179,6 @@ html, body {
     }
 
     .hero__link {
-        font-size: 36px;
+        font-size:26px;
     }
 }
