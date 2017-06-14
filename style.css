@@ -104,15 +104,10 @@ html, body {
     transition: all 0.3s ease-in-out 0s;
 }
 
-.hero__link:hover {
-    color: #A11F30;
-}
-
 .hero__link:hover:before {
     visibility: visible;
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
-    background-color: #A11F30;
 }
 
 @media only screen and (min-device-width : 400px) {
