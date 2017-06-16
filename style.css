@@ -39,12 +39,22 @@ html, body {
     color: #251F23;
 }
 
-.hero__message {
+.hero__date {
     font-size: 16px;
     font-style: italic;
     line-height: 1.25;
-    margin: 16px 0;
+    margin: 5px 0 15px;
     color: #251F23;
+}
+
+.hero__link-title {
+    display: inline-block;
+    font-size: 10px;
+    line-height: 1.25;
+    margin: 0;
+    padding: 15px 20px 7px;
+    color: #251F23;
+    border-top: 2px solid #770024;
 }
 
 .hero__links {
@@ -56,10 +66,10 @@ html, body {
 
 .hero__link-wrapper {
     display: inline-block;
-    border-right: 2px solid #251F23;
+    border-right: 1px solid #770024;
     overflow: hidden;
     position: relative;
-    padding: 3px 5px;
+    padding: 0 5px 5px;
 }
 
 .hero__link-wrapper:last-child {
@@ -113,8 +123,12 @@ html, body {
         font-size: 28px;
     }
 
-    .hero__message {
+    .hero__date {
         font-size: 20px;
+    }
+
+    .hero__link-title {
+        font-size: 16px;
     }
 
     .hero__link {
@@ -135,8 +149,14 @@ html, body {
         font-size: 32px;
     }
 
-    .hero__message {
+    .hero__date {
         font-size: 24px;
+        margin: 5px 0 15px;
+    }
+
+    .hero__link-title {
+        font-size: 20px;
+        padding: 15px 20px 7px;
     }
 
     .hero__link {
@@ -157,8 +177,12 @@ html, body {
         font-size: 36px;
     }
 
-    .hero__message {
+    .hero__date {
         font-size: 28px;
+    }
+
+    .hero__link-title {
+        font-size: 24px;
     }
 
     .hero__link {
@@ -179,8 +203,12 @@ html, body {
         font-size: 44px;
     }
 
-    .hero__message {
+    .hero__date {
         font-size: 28px;
+    }
+
+    .hero__link-title {
+        font-size: 24px;
     }
 
     .hero__link {
