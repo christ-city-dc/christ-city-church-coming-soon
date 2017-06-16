@@ -54,7 +54,7 @@ html, body {
     margin: 0;
     padding: 15px 20px 7px;
     color: #251F23;
-    /*border-top: 2px solid #770024;*/
+    border-top: 2px solid #770024;
 }
 
 .hero__links {
