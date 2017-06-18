@@ -43,7 +43,7 @@ html, body {
     font-size: 16px;
     font-style: italic;
     line-height: 1.25;
-    margin: 5px 0 15px;
+    margin: 5px 0 25px;
     color: #251F23;
 }
 
@@ -52,7 +52,7 @@ html, body {
     font-size: 10px;
     line-height: 1.25;
     margin: 0;
-    padding: 15px 20px 7px;
+    padding: 25px 20px 7px;
     color: #251F23;
     border-top: 2px solid #770024;
 }
@@ -65,22 +65,17 @@ html, body {
 }
 
 .hero__link-wrapper {
-    display: inline-block;
-    border-right: 1px solid #770024;
+    display: block;
     overflow: hidden;
     position: relative;
     padding: 0 5px 5px;
 }
 
-.hero__link-wrapper:last-child {
-    border-right: none;
-}
-
 .hero__link {
     display: inline;
-    padding: 0 5px;
+    padding: 0;
     margin: 0;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.25;
     color: #770024;
     text-decoration: none;
@@ -132,7 +127,7 @@ html, body {
     }
 
     .hero__link {
-        font-size: 18px;
+        font-size: 20px;
     }
 }
 
@@ -151,16 +146,16 @@ html, body {
 
     .hero__date {
         font-size: 24px;
-        margin: 5px 0 15px;
+        margin: 5px 0 30px;
     }
 
     .hero__link-title {
-        font-size: 20px;
-        padding: 15px 20px 7px;
+        font-size: 18px;
+        padding: 30px 20px 7px;
     }
 
     .hero__link {
-        font-size: 22px;
+        font-size: 24px;
     }
 }
 
@@ -179,14 +174,16 @@ html, body {
 
     .hero__date {
         font-size: 28px;
+        margin: 5px 0 50px;
     }
 
     .hero__link-title {
-        font-size: 24px;
+        font-size: 20px;
+        padding: 50px 20px 7px;
     }
 
     .hero__link {
-        font-size: 26px;
+        font-size: 28px;
     }
 }
 
@@ -208,10 +205,10 @@ html, body {
     }
 
     .hero__link-title {
-        font-size: 24px;
+        font-size: 20px;
     }
 
     .hero__link {
-        font-size:26px;
+        font-size: 30px;
     }
 }
